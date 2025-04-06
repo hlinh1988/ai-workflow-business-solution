@@ -13,7 +13,7 @@
 ```bash
 docker-compose up --build
 
-#Key Features Mapping
+##Key Features Mapping
 Requirement         Implementation
 Unit Test API	      tests/test_api.py using pytest
 Unit Test Model	    tests/test_model.py
@@ -37,5 +37,4 @@ GET /predict/all
 
 Example Monitoring
 from prometheus_client import Counter
-
 prediction_counter = Counter('api_predictions_total', 'Total Predictions Made')
